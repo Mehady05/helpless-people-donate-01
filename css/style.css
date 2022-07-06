@@ -124,13 +124,13 @@ button.donate{
 }
 .donate-all-plan .single-plan{
     width: 29%;
-    float: left;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     padding: 40px 13px;
     margin-left: 16px;
     text-align: center;
     display: inline-block;
+    float: left;
 }
 .donate-all-plan .single-plan .img{
     width: 60px;
