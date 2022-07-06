@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+.clear{
+    clear: both;
+}
+
+.banner-area{
+    background-image: url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner-area .shadow{
+    position: absolute;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    width: 100%;
+    height: 100%;
+}
+.banner-area .banner{
+    text-align: center;
+    padding: 200px 300px;
+
+}
+.banner-area .banner h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 79px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    text-transform: capitalize;
+}
+.banner-area .banner p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+button.donate{
+    position: relative;
+    color: #ffffff;
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.donate-today{
+    text-align: center;
+    padding: 0 100px;
+}
+.donate-today h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+    text-transform: capitalize;
+}
+.donate-today p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    padding: 0 300px;
+}
+.donate-today .donate-money{}
+.donate-today .donate-money span{
+    padding: 42px 23px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.donate-today .donate-money .second-taka{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.donate-today .input-amount{
+
+}
+.donate-today input{
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    text-transform: capitalize;
+    width: 765px;
+    margin-top: 50px;
+}
+.donate-today input::placeholder{
+    color: #B3B3B3;
+}
+.donate-today .input-donate{
+   margin-top: 30px;
+}
+
+
+.donate-plan{
+    padding-top: 100px;
+}
+.donate-all-plan{
+    float: left;
+}
+.donate-all-plan .single-plan{
+    width: 29%;
+    float: left;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 40px 13px;
+    margin-left: 16px;
+    text-align: center;
+    display: inline-block;
+}
+.donate-all-plan .single-plan .img{
+    width: 60px;
+}
+.donate-all-plan .single-plan img{
+    width: 100%;
+}
+.donate-all-plan .single-plan h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    text-align: left;
+    text-transform: capitalize;
+}
+.donate-all-plan .single-plan .pera{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    text-align: left;
+    padding: 0;
+}
+
+.light-red{
+    background: rgba(255, 89, 89, 0.1) !important;
+}
+.light-yellow{
+    background: rgba(255, 244, 214, 0.5) !important;
+}
+
+.depend{
+    float: left;
+    padding: 100px 50px;
+}
+.depend .depend-img{
+    width: 40%;
+    float: left;
+}
+.depend .depend-img img{
+    width: 100%;
+    margin-left: 50px;
+}
+.depend .depend-text{
+    margin-top: -10px;
+    width: 40%;
+    float: left;
+    margin-left: 80px;
+}
+.depend .depend-text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    text-align: left;
+}
+.depend .depend-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.update-email{
+    padding: 50px 200px;
+    background: #FFF4D6;
+    text-align: center;
+}
+.update-email input{
+    margin-right: -5px;
+    width: 50%;
+    padding: 20px 0;
+    padding-top: 25px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.last-part{
+    text-align: center;
+    background: #0B0D17;
+    padding: 50px 0;
+    width: 100%;
+}
+.last-part h5{
+    text-transform: uppercase;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+}
+.last-part span{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+
+.new-area{
+    text-align: center;
+    padding-top: 100px;
+}
+.new-area h4{
+    color: #477763;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.new-area h2{
+    color: #D59B2D;
+    font-size: 2.80rem;
+    position: relative;
+    font-weight: 800;
+    z-index: 1;
+    margin-bottom: 3rem;
+}
+.new-area .all-field{
+    float: left;
+}
+.new-area .all-field .field{
+    width: 20%;
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+.new-area .all-field .field span{
+    text-transform: uppercase;
+    color: #D59B2D;
+    font-size: 0.8125rem;
+    align-items: center;
+    font-weight: 700;
+    text-align: right;
+}
+.new-area .all-field .field img{
+    width: 100%;
+    border-radius: 5px;
+}
+.new-area .all-field .field-data{
+}
+.new-area .all-field .field-data h3{
+    font-size: 1.25rem;
+    color: #477763;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.new-area .all-field .field-data p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #636886;
+}
+
